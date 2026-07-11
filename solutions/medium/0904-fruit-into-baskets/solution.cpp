@@ -9,6 +9,7 @@ public:
         int right = 0;
         int maxFruits = 0;
         unordered_map<int, int> freq;
+        
         while(right < n){
             freq[fruits[right]]++;
             while(freq.size() > 2){
